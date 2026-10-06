@@ -1,5 +1,7 @@
 # HURMUST
 
+Live: https://hurmust-app.vercel.app · Public repository: https://github.com/Uulenu/hurmust
+
 Mongolian human-rights information and preparation app. This is a public **beta**, not a legal opinion or complaint-submission service.
 
 ## 1. What was built
