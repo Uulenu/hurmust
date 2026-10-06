@@ -2,6 +2,8 @@
 
 Audit completed against the production build; legal-source snapshot: 2026-10-06. Public beta limitations are shown in the app and README.
 
+Local final suite: **21 passed, 0 failed, 4 intentionally skipped** (the real cloud integration runs once instead of repeating on every engine).
+
 ## Verified implementation
 
 - Lint, strict TypeScript, legal-data/matcher/storage/AI-parser checks and production build.
