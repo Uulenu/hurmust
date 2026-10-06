@@ -1,0 +1,26 @@
+[
+  {
+    "file": "src/components/help.tsx",
+    "original": "групп чатанд",
+    "corrected": "бүлгийн чатад",
+    "count": 1
+  },
+  {
+    "file": "src/components/help.tsx",
+    "original": "чатны",
+    "corrected": "чатын",
+    "count": 1
+  },
+  {
+    "file": "src/data/catalog.ts",
+    "original": "групп чатанд",
+    "corrected": "бүлгийн чатад",
+    "count": 1
+  },
+  {
+    "file": "src/data/catalog.ts",
+    "original": "чатны",
+    "corrected": "чатын",
+    "count": 1
+  }
+]

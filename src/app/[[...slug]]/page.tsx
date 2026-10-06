@@ -1,0 +1,4 @@
+import App from '@/components/app';
+import {notFound} from 'next/navigation';
+import {provisions,topicNames} from '@/data/catalog';
+export default async function Page({params,searchParams}:{params:Promise<{slug?:string[]}>;searchParams:Promise<Record<string,string|string[]|undefined>>}){const [{slug},query]=await Promise.all([params,searchParams]);const path='/'+(slug?.join('/')??'');const valid=['/','/laws','/rights','/help','/help/result','/advisor','/organizations','/guides/nhrc-complaint','/saved','/demo','/safety','/search','/privacy'].includes(path)||(slug?.length===2&&((slug[0]==='laws'&&provisions.some(p=>p.id===slug[1]))||(slug[0]==='rights'&&Object.hasOwn(topicNames,slug[1]))));if(!valid)notFound();return <App key={JSON.stringify([slug,query])} path={'/'+(slug?.join('/')??'')} query={query}/>;}
