@@ -15,3 +15,6 @@
 @media(max-width:560px){.cloud-panel{padding:22px}.cloud-actions .button{width:100%}.field input,.field textarea,.field select,.chat-form textarea{font-size:16px}.auth-form input{font-size:16px}.cloud-confirm .button{width:100%;margin:5px 0}.cloud-heading h2{font-size:23px}.cloud-panel p{font-size:13px}}
 
 .delete-panel p{color:#6b463b}
+
+.desktop-nav .account-nav{padding:10px 13px;background:var(--lime);color:var(--ink);border:1px solid #c7dfa4;border-radius:7px}.desktop-nav .account-nav[aria-current]:after{display:none}
+@media(max-width:560px){.bottom-nav .account-nav{background:var(--lime);color:var(--ink)}}
